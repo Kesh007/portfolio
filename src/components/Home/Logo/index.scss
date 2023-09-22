@@ -1,0 +1,37 @@
+.solid-logo {
+    width: 400px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 10%;
+    border-radius: 243px;
+    animation: glow 2s infinite;
+}
+.solid-logo:hover {
+    animation: none;
+}
+@keyframes glow {
+    0%, 100% {
+      box-shadow: 0 0px 20px rgba(255, 248, 208, 0.5); /* Adjust the color and spread as needed */
+    }
+    50% {
+      box-shadow: 0 0 23px rgba(252, 244, 192, 0.7); /* Adjust the color and spread as needed */
+    }
+  }
+
+  @media screen and (max-width: 913px) {
+    .solid-logo {
+        width: 200px;
+        margin: 0px auto;
+        margin-top: 12%;
+        display: block;
+        float: none;
+        border-radius: 243px;
+        animation: none;
+    }
+  }
+
+  @media screen and (width: 720px) and (height: 540px) {
+    .solid-logo {
+        display: none;
+    }
+  }
