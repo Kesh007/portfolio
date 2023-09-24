@@ -16,7 +16,7 @@ const Skills = () => {
                     PS: Painting is my hobby! I think my love for art gives me a good sense of design and aesthetics when it comes to UI UX.
                      Check out my art gallery!
                 </p>
-                <NavLink activeClassName="active" className="flat-button" to="/gallery" >
+                <NavLink activeClassName="active" className="flat-button" to="/portfolio/gallery" >
                     My Gallery
                 </NavLink>
             </div>

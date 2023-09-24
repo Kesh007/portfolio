@@ -10,23 +10,23 @@ const Sidebar = () => {
     const [showNav, setShowNav] = useState(false);
     return (
     <div className="nav-bar">
-        <Link className="logo" to="/" onClick={() => setShowNav(false)}>
+        <Link className="logo" to="/portfolio/" onClick={() => setShowNav(false)}>
             <img src={LogoK} alt="Logo" />
         </Link>
         <nav className={showNav ? 'mobile-show' : ''}>
-            <NavLink exact="true" activeClassName="active" to="/" onClick={() => setShowNav(false)}>
+            <NavLink exact="true" activeClassName="active" to="/portfolio/" onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faHome} color="#012226"/>
             </NavLink>
-            <NavLink activeClassName="active" className="about-link" to="/about" onClick={() => setShowNav(false)}>
+            <NavLink activeClassName="active" className="about-link" to="/portfolio/about" onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faUser} color="#012226"/>
             </NavLink>
-            <NavLink activeClassName="active" className="skills-link" to="/skills" onClick={() => setShowNav(false)}>
+            <NavLink activeClassName="active" className="skills-link" to="/portfolio/skills" onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faSuitcase} color="#012226"/>
             </NavLink>
-            <NavLink activeClassName="active" className="journey-link" to="/journey" onClick={() => setShowNav(false)}>
+            <NavLink activeClassName="active" className="journey-link" to="/portfolio/journey" onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faMap} color="#012226"/>
             </NavLink>
-            <NavLink activeClassName="active" className="gallery-link" to="/gallery" onClick={() => setShowNav(false)}>
+            <NavLink activeClassName="active" className="gallery-link" to="/portfolio/gallery" onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faPalette} color="#012226"/>
             </NavLink>
             <FontAwesomeIcon 

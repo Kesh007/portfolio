@@ -27,7 +27,7 @@ const About = () => {
                   With a strong desire to learn and adapt, I'm eager to contribute my skills to impactful projects.
                   My goal is to create innovative solutions that positively impact people's lives and society as a whole.
                 </p>
-                <NavLink activeClassName="active" className="flat-button" to="/journey" >
+                <NavLink activeClassName="active" className="flat-button" to="/portfolio/journey" >
                     My Journey
                 </NavLink>
             </div>
